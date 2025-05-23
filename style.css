@@ -262,3 +262,29 @@ footer {
 .footer-down p {
     font-size: 14px;
 }
+
+
+/* ANIM */
+img {
+    transition: 1s;
+}
+.map:hover {
+    transform: scale(1.1);
+}
+
+.product-card {
+    transition: 0.3s;
+}
+.product-card:hover {
+    transform: scale(0.97);
+    background-color: rgba(99, 230, 33, 0.4);
+    cursor: pointer;
+}
+
+.news-post {
+    transition: 0.3s;
+}
+.news-post:hover {
+    transform: scale(0.97);
+    cursor: pointer;
+}
